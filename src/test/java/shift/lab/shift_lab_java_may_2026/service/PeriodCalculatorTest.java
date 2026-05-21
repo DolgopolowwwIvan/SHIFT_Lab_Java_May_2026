@@ -18,11 +18,11 @@ class PeriodCalculatorTest {
 
     @Test
     void calculateStart_shouldReturnStartOfProvidedDate_whenDateProvided() {
-        LocalDate date = LocalDate.of(2026, 6, 15);
+        LocalDate date = LocalDate.of(2026, 5, 15);
 
         LocalDateTime result = periodCalculator.calculateStart(date, "month");
 
-        assertThat(result).isEqualTo(LocalDateTime.of(2026, 6, 15, 0, 0));
+        assertThat(result).isEqualTo(LocalDateTime.of(2026, 5, 15, 0, 0));
     }
 
     @ParameterizedTest

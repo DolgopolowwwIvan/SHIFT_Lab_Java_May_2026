@@ -9,7 +9,7 @@ import shift.lab.shift_lab_java_may_2026.exception.EntityNotFoundException;
 import shift.lab.shift_lab_java_may_2026.model.Seller;
 import shift.lab.shift_lab_java_may_2026.repository.SellerRepository;
 import shift.lab.shift_lab_java_may_2026.repository.TransactionRepository;
-import shift.lab.shift_lab_java_may_2026.service.PeriodCalculator;
+import shift.lab.shift_lab_java_may_2026.service.util.PeriodCalculator;
 import shift.lab.shift_lab_java_may_2026.service.SellerService;
 
 import java.math.BigDecimal;

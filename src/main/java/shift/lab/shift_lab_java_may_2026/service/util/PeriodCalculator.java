@@ -1,4 +1,4 @@
-package shift.lab.shift_lab_java_may_2026.service;
+package shift.lab.shift_lab_java_may_2026.service.util;
 
 import org.springframework.stereotype.Component;
 

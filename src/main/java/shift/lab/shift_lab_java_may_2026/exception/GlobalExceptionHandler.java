@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import shift.lab.shift_lab_java_may_2026.dto.ErrorResponseDto;
@@ -53,7 +54,8 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(exception = {
             IllegalArgumentException.class,
             IllegalStateException.class,
-            MethodArgumentNotValidException.class
+            MethodArgumentNotValidException.class,
+            MissingServletRequestParameterException.class
     })
     public ResponseEntity<ErrorResponseDto> handleBadRequestException(
             Exception e
