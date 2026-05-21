@@ -52,7 +52,7 @@ class TransactionIntegrationTest {
                     "sellerId": %d,
                     "amount": 500.00,
                     "paymentType": "CARD",
-                    "transactionDate": "2025-06-15T10:30:00"
+                    "transactionDate": "2026-05-15T10:30:00"
                 }
                 """, seller.getId());
 
@@ -72,7 +72,7 @@ class TransactionIntegrationTest {
                     "sellerId": 9999,
                     "amount": 500.00,
                     "paymentType": "CARD",
-                    "transactionDate": "2025-06-15T10:30:00"
+                    "transactionDate": "2026-05-15T10:30:00"
                 }
                 """;
 
